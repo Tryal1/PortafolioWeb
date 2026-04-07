@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a,
+button {
+  cursor: pointer;
+}
+
+@theme {
+  /* Paleta SaaS Premium */
+  --color-primary: #81ecff;
+  --color-primary-dim: #00d4ec;
+  --color-secondary: #ac89ff;
+  --color-tertiary-dim: #ff59e3;
+  --color-background: #0c0e12;
+  --color-surface-container-low: #111417;
+  --color-surface-container-high: #1c2025;
+  --color-surface-container-highest: #22262b;
+  --color-on-surface: #f8f9fe;
+  --color-on-surface-variant: #a9abb0;
+  --color-outline-variant: #46484c;
+  --color-surface-container-high: #1c2025;
+
+  /* Tipografía y Radios */
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Space Grotesk", sans-serif;
+  --radius-xxl: 1.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body scroll-smooth;
+  }
+}
+
+/* Efectos de Luz */
+.text-glow {
+  text-shadow: 0 0 20px rgba(129, 236, 255, 0.4);
+}
+
+.glass-card {
+  background: rgba(28, 32, 37, 0.4);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(129, 236, 255, 0.1);
+}
+
+.skill-card-glow:hover {
+  box-shadow: 0 0 20px rgba(129, 236, 255, 0.15);
+  border-color: rgba(129, 236, 255, 0.4);
+}
