@@ -1,4 +1,3 @@
-import React from 'react'
 import itbaCertificado from '../assets/itbaCerificado.jpg'
 import nextjsCurso from '../assets/nextJsCurso.png'
 import reactHooksCertificado from '../assets/reactHooksCertificado.png'

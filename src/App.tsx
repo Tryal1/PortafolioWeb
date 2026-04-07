@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Proyectos from './components/proyectos';
 import Skills from './components/Skills';
 import Experiens from './components/Experiens';
