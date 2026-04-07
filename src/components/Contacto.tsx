@@ -9,8 +9,8 @@ const Contacto = () => {
             {/* Gradiente de fondo decorativo */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 blur-[120px] -z-10"></div>
 
-            <div className="text-center mb-16">
-                <h2 className="font-headline text-5xl font-black mb-4 text-on-surface">Puedes contactarme por.</h2>
+            <div className="md:text-center mb-16">
+                <h2 className="font-headline text-5xl font-black mb-4 text-on-surface">Podes contactarme por.</h2>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -35,6 +35,16 @@ button {
   --font-body: "Inter", sans-serif;
   --font-label: "Space Grotesk", sans-serif;
   --radius-xxl: 1.5rem;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    } /* El secreto está en el 50% exacto */
+  }
+  --animate-infinite-scroll: scroll 100s linear infinite;
 }
 
 @layer base {

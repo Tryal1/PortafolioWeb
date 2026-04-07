@@ -10,7 +10,6 @@ import Contacto from './components/Contacto';
 
 
 const App: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="selection:bg-primary selection:text-black">
@@ -30,10 +29,6 @@ const App: React.FC = () => {
               </a>
             ))}
           </div>
-
-          <button className="md:hidden text-primary" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <span className="material-symbols-outlined">{isMenuOpen ? 'close' : 'menu'}</span>
-          </button>
         </div>
       </nav>
 

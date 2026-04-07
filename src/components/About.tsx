@@ -1,12 +1,13 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import yoImg from '../assets/yo.jpeg'
 
 const About = () => {
     return (
         <section id="sobre mi" className="min-h-screen pt-32 pb-20 px-8 max-w-7xl mx-auto flex flex-col md:grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-7 z-10">
                 <h1 className="font-headline text-4xl md:text-7xl font-extrabold tracking-tight leading-none mb-8 text-glow">
-                    Thomas
+                    Hola soy Thomas
                     <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Fullstack dev.</span>
                 </h1>
@@ -29,7 +30,7 @@ const About = () => {
             </div>
             <div className="md:col-span-5 relative">
                 <div className="relative w-full aspect-square rounded-xxl overflow-hidden border border-white/5 shadow-2xl">
-                    {/* <img alt="Portrait" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" /> */}
+                    <img alt="Portrait" className="w-full h-full object-cover" src={yoImg} />
                     <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
                 </div>
                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-secondary/10 blur-[100px] rounded-full"></div>
