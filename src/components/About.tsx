@@ -19,7 +19,7 @@ const About = () => {
                     gestión interna en tiempo real.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                    <a href={`#Projectos`} className="bg-gradient-to-br from-primary to-primary-dim text-black font-bold px-8 py-4 rounded-xl flex items-center gap-2 group transition-all hover:shadow-[0_0_30px_rgba(129,236,255,0.3)] cursor-pointer">
+                    <a href={`#projectos`} className="bg-gradient-to-br from-primary to-primary-dim text-black font-bold px-8 py-4 rounded-xl flex items-center gap-2 group transition-all hover:shadow-[0_0_30px_rgba(129,236,255,0.3)] cursor-pointer">
                         Projectos
                         <FontAwesomeIcon className="material-symbols-outlined transition-transform group-hover:translate-x-1" icon={faArrowRight} />
                     </a>
