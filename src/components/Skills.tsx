@@ -24,6 +24,8 @@ const Skills = () => {
                         { icon: faCube, title: 'Strapi', color: 'text-secondary' },
                         { icon: faGithub, title: 'Git hub', color: 'text-tertiary-dim' },
                         { icon: faGit, title: 'Node.js' },
+                        { icon: faReact, title: 'Redux', color: 'text-secondary' },
+
 
                     ].map((skill, i) => (
                         <div key={i} className="skill-card-glow p-8 bg-surface-container-high rounded-xxl border border-outline-variant/10 transition-all duration-300 group">
