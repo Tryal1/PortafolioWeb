@@ -5,11 +5,13 @@ import Experiens from './components/Experiens';
 import About from './components/About';
 import Education from './components/Education';
 import Contacto from './components/Contacto';
+import { useTranslation } from 'react-i18next';
 
 
 
 
 const App: React.FC = () => {
+  const { t } = useTranslation();
 
   return (
     <div className="selection:bg-primary selection:text-black">
@@ -19,13 +21,20 @@ const App: React.FC = () => {
           <span className="text-2xl font-black tracking-tighter text-primary">Thomas Carreño</span>
 
           <div className="hidden md:flex gap-8 items-center">
-            {['Sobre mi', 'Experiencia', 'Projectos', 'Habilidades', 'Educacion', 'Contacto'].map((item) => (
+            {[
+              { key: 'about', id: 'sobre mi' },
+              { key: 'experience', id: 'experiencia' },
+              { key: 'projects', id: 'projectos' },
+              { key: 'skills', id: 'habilidades' },
+              { key: 'education', id: 'educacion' },
+              { key: 'contact', id: 'contacto' }
+            ].map((item) => (
               <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
+                key={item.key}
+                href={`#${item.id}`}
                 className="text-slate-400 font-medium pb-1 hover:text-primary transition-colors duration-300"
               >
-                {item}
+                {t(`nav.${item.key}`)}
               </a>
             ))}
           </div>
@@ -49,7 +58,7 @@ const App: React.FC = () => {
         <Education />
 
         {/* --- 6. Contacto Section --- */}
-        <Contacto/>
+        <Contacto />
       </main>
 
       <footer className="bg-slate-950 w-full py-12 border-t border-white/5">

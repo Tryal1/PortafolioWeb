@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Hola soy Thomas",
+    "subtitle": "Fullstack dev.",
+    "description": "Soy desarrollador frontend/fullstack con experiencia en aplicaciones dentro de Microsoft Teams y entornos web modernos. He trabajado con React.js, Tailwind CSS, Next.js, Node.js y Strapi, integrando Teams SDK y Socket.IO para desarrollar aplicaciones de mensajería, llamadas, bots y herramientas de gestión interna en tiempo real.",
+    "btn_projects": "Projectos",
+    "btn_cv": "Descargar CV"
+  },
+  "experience": {
+    "section_title": "Trayectoria profesional",
+    "date": "Junio 2022 — Octubre 2025",
+    "role": "Desarrollador full stack",
+    "company": "Newtech",
+    "desc_1": "Desarrollo de aplicaciones y extensiones para clientes corporativos como Andreani, YPF, Ternium y Claro, construyendo soluciones dentro de Microsoft Teams y entornos web modernos.",
+    "desc_2": "Trabajé principalmente con React, Tailwind CSS y TypeScript, desarrollando interfaces dinámicas, componentes reutilizables y experiencias enfocadas en usabilidad y rendimiento.",
+    "desc_3": "Participé en el desarrollo end-to-end de funcionalidades, integrando comunicación en tiempo real, automatizaciones y lógica de negocio compleja, colaborando estrechamente con equipos de diseño y backend.",
+    "achievements": [
+      "Desarrollo de aplicaciones y extensiones dentro de Microsoft Teams para entornos corporativos.",
+      "Integración de chats, llamadas y notificaciones en tiempo real utilizando Teams SDK y Socket.IO.",
+      "Construcción de interfaces y componentes reutilizables con React y Tailwind CSS.",
+      "Desarrollo de bots y automatizaciones para mejorar la interacción y productividad de usuarios.",
+      "Manejo de flujos complejos como estados de usuario, control de licencias y tracking de acciones.",
+      "Colaboración con backend utilizando Node.js, Strapi y Next.js para funcionalidades end-to-end.",
+      "Trabajo conjunto con diseño UI/UX para implementar experiencias fieles y optimizadas.",
+      "Enfoque en código limpio, modular y mantenible para escalabilidad del producto."
+    ]
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "section_title": "Proyectos.",
+    "go_to_store": "Ir a la tienda",
+    "go_to_code": "Ir al codigo",
+    "roles": {
+      "fe": "Front end",
+      "fs": "Front end y backend"
+    },
+    "items": {
+      "newcos": "Trabajé principalmente como desarrollador front-end, creando pantallas dentro de la aplicación. A medida que se incorporaban nuevas funcionalidades o vistas, en la mayoría de los casos me encargaba de desarrollar esas extensiones, participando activamente en su implementación de punta a punta.",
+      "becomm": "BeComm es una solución desarrollada dentro de Microsoft Teams que permite administrar y gestionar las comunicaciones internas de una organización de forma sencilla y ágil. Durante varios meses colaboré activamente en el desarrollo, aportando principalmente en el front-end y también participando en algunas tareas de back-end, desarrollando nuevas funcionalidades.",
+      "finder": "Desarrollé desde cero el front-end de una aplicación para buscar usuarios dentro de una compañía por tenant, mostrando información completa y la estructura organizacional (jefes, colegas, equipo), con opciones de contacto rápido como chat o llamada. También colaboré en parte del back-end.",
+      "optty": "Desarrollé desde cero el front-end de Opty, una aplicación para gestionar propuestas de negocio, donde se registran oportunidades y los usuarios pueden acceder al detalle y avanzar en su gestión cargando toda la información requerida.",
+      "itba": "Desarrollé una aplicación full stack que simula un banco, incluyendo gestión de clientes, tarjetas y transacciones con persistencia de datos. Fue el proyecto final en equipo para finalizar la cursada en ITBA."
+    }
+  },
+  "education": {
+    "section_title": "Educación",
+    "courses": [
+      {
+        "title": "Certificación Avanzada en Full Stack Developer",
+        "desc": "Cursada intensiva enfocada en desarrollo full stack, realizada con beca, donde adquirí y practiqué habilidades en tecnologías tanto de front-end como de back-end."
+      },
+      {
+        "title": "Next.js: El framework de React para producción",
+        "desc": "Cursada enfocada en Next.js (v13+), profundizando en renderizado híbrido, APIs, autenticación, bases de datos y despliegues en producción. Desarrollé múltiples proyectos prácticos, incluyendo una tienda e-commerce completa con pagos, dashboard y optimizaciones de rendimiento. Trabajé principalmente con TypeScript, integrando herramientas modernas del ecosistema React."
+      },
+      {
+        "title": "React - Guía definitiva: hooks router redux next +Proyectos",
+        "desc": "Cursada enfocada en React moderno y su ecosistema, profundizando en hooks, componentes funcionales, contexto, routing y manejo de estado con Redux. Desarrollé múltiples proyectos prácticos aplicando buenas prácticas, optimización de rendimiento y testing. También adquirí experiencia en despliegue de aplicaciones y mantenimiento de proyectos a gran escala."
+      },
+      {
+        "title": "React PRO: Lleva tus bases al siguiente nivel",
+        "desc": "Cursada avanzada de React enfocada en TypeScript, patrones de diseño de componentes y creación de librerías reutilizables. Trabajé con herramientas como Storybook, Formik y despliegues a NPM, automatizando procesos con GitHub Actions. También desarrollé PWAs con soporte offline, optimizando arquitectura y escalabilidad de aplicaciones."
+      },
+      {
+        "title": "React: Aplicaciones en tiempo real con Socket-io",
+        "desc": "Cursada enfocada en aplicaciones en tiempo real con React y Socket.io, implementando comunicación instantánea entre clientes y servidor. Desarrollé proyectos como chats, sistemas de tickets y visualizaciones en tiempo real, utilizando WebSockets, JWT y MongoDB. Profundicé en hooks, eventos, autenticación y sincronización de datos en aplicaciones interactivas."
+      },
+      {
+        "title": "Node: De cero a experto",
+        "desc": "Cursada enfocada en Node.js, desarrollando backends con APIs REST, manejo de bases de datos y autenticación con JWT. Implementé aplicaciones prácticas utilizando Express, MongoDB y sockets, integrando servicios y despliegues. Adquirí experiencia en construcción de aplicaciones escalables y orientadas a producción."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Podes contactarme por.",
+    "labels": {
+      "profile": "Perfil",
+      "message": "Mensaje",
+      "email": "Correo",
+      "works": "Trabajos"
+    }
+  }
+}

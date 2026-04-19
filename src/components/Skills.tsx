@@ -1,13 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGit, faGithub, faHtml5, faJs, faNode, faReact, faTailwindCss, faTypescript } from '@fortawesome/free-brands-svg-icons';
 import { faCube, faN } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="habilidades" className="py-24 bg-surface-container-low">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="mb-16 text-right">
-                    <h3 className="font-headline text-4xl font-bold">habilidades</h3>
+                    <h3 className="font-headline text-4xl font-bold">{t('skills.title')}</h3>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {[

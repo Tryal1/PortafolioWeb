@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Hi, I'm Thomas",
+    "subtitle": "Fullstack dev.",
+    "description": "I am a frontend/fullstack developer with experience in applications within Microsoft Teams and modern web environments. I've worked with React.js, Tailwind CSS, Next.js, Node.js, and Strapi, integrating Teams SDK and Socket.IO to develop messaging apps, calls, bots, and real-time internal management tools.",
+    "btn_projects": "Projects",
+    "btn_cv": "Download CV"
+  },
+  "experience": {
+    "section_title": "Professional Experience",
+    "date": "June 2022 — October 2025",
+    "role": "Full Stack Developer",
+    "company": "Newtech",
+    "desc_1": "Development of applications and extensions for corporate clients such as Andreani, YPF, Ternium, and Claro, building solutions within Microsoft Teams and modern web environments.",
+    "desc_2": "I primarily worked with React, Tailwind CSS, and TypeScript, developing dynamic interfaces, reusable components, and experiences focused on usability and performance.",
+    "desc_3": "Participated in end-to-end feature development, integrating real-time communication, automation, and complex business logic, collaborating closely with design and backend teams.",
+    "achievements": [
+      "Development of applications and extensions within Microsoft Teams for corporate environments.",
+      "Integration of real-time chats, calls, and notifications using Teams SDK and Socket.IO.",
+      "Construction of reusable interfaces and components with React and Tailwind CSS.",
+      "Development of bots and automations to improve user interaction and productivity.",
+      "Management of complex flows such as user states, license control, and action tracking.",
+      "Collaboration with backend using Node.js, Strapi, and Next.js for end-to-end functionalities.",
+      "Joint work with UI/UX design to implement faithful and optimized experiences.",
+      "Focus on clean, modular, and maintainable code for product scalability."
+    ]
+  },
+  "skills": {
+    "title": "skills"
+  },
+  "projects": {
+    "section_title": "Projects.",
+    "go_to_store": "Go to store",
+    "go_to_code": "Go to code",
+    "roles": {
+      "fe": "Front end",
+      "fs": "Front end and backend"
+    },
+    "items": {
+      "newcos": "I worked primarily as a front-end developer, creating screens within the application. As new features or views were added, I was responsible for developing those extensions, participating actively in their end-to-end implementation.",
+      "becomm": "BeComm is a solution developed within Microsoft Teams that allows managing internal communications of an organization in a simple and agile way. I actively collaborated on the development for several months, mainly in the front-end and also backend tasks.",
+      "finder": "I developed the front-end from scratch for an application to search for users within a company by tenant, showing complete information and organizational structure (bosses, colleagues, team), with quick contact options like chat or call. I also collaborated on part of the backend.",
+      "optty": "I developed the front-end of Opty from scratch, an application to manage business proposals, where opportunities are registered and users can access details and progress in their management.",
+      "itba": "I developed a full-stack application that simulates a bank, including client management, cards, and transactions with data persistence. This was the final team project to complete the ITBA course."
+    }
+  },
+  "education": {
+    "section_title": "Education",
+    "courses": [
+      {
+        "title": "Advanced Full Stack Developer Certification",
+        "desc": "Intensive course focused on full-stack development, completed under a scholarship, where I acquired and practiced skills in both front-end and back-end technologies."
+      },
+      {
+        "title": "Next.js: The React Framework for Production",
+        "desc": "Focused on Next.js (v13+), diving deep into hybrid rendering, APIs, authentication, databases, and production deployments. Developed multiple practical projects, including a full e-commerce with payments, dashboard, and performance optimizations. Primarily worked with TypeScript."
+      },
+      {
+        "title": "React - Ultimate Guide: hooks router redux next +Projects",
+        "desc": "Focused on modern React and its ecosystem, deepening knowledge in hooks, functional components, context, routing, and state management with Redux. Developed multiple practical projects applying best practices, performance optimization, and testing."
+      },
+      {
+        "title": "React PRO: Take your bases to the next level",
+        "desc": "Advanced React course focused on TypeScript, component design patterns, and creating reusable libraries. Worked with Storybook, Formik, and NPM deployments, automating processes with GitHub Actions."
+      },
+      {
+        "title": "React: Real-time applications with Socket-io",
+        "desc": "Focused on real-time applications with React and Socket.io, implementing instant communication between clients and server. Developed projects like chats, ticket systems, and real-time visualizations."
+      },
+      {
+        "title": "Node: From Zero to Expert",
+        "desc": "Focused on Node.js, developing backends with REST APIs, database management, and JWT authentication. Implemented practical applications using Express, MongoDB, and sockets."
+      }
+    ]
+  },
+  "contact": {
+    "title": "You can contact me via.",
+    "labels": {
+      "profile": "Profile",
+      "message": "Message",
+      "email": "Email",
+      "works": "Works"
+    }
+  }
+}
